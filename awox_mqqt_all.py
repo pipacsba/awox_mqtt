@@ -13,6 +13,9 @@
 #  "white_value": int       - WHITE_TEMPERATURE
 #  "effect": "toggle"
 # }
+# remember: 
+# - modified python module: python-awox-mesh-light-master
+# - do not install bluepy from wheel (--use-no-wheel)
 import paho.mqtt.client as mqtt
 import awoxmeshlight
 import time
